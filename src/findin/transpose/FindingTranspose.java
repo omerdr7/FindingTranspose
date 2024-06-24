@@ -44,7 +44,7 @@ public class FindingTranspose {
     }
 
     public static void main(String[] args) {
-
+        printMatrix();
     }
 
 }
