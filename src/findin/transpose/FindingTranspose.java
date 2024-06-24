@@ -21,6 +21,26 @@ public class FindingTranspose {
             }
         }
         System.out.println("Matrix A= ");
+        for (int i = 0; i <= column - 1; i++) {
+            for (int j = 0; j <= row - 1; j++) {
+                System.out.print(matrix[i][j]);
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
+        System.out.println("Transpoze of A= ");
+        for (int i = 0; i <= column - 1; i++) {
+            for (int j = 0; j <= row - 1; j++) {
+                transpozeMatrix[j][i] = matrix[i][j];
+            }
+        }
+        for (int i = 0; i <= row - 1; i++) {
+            for (int j = 0; j <= column - 1; j++) {
+                System.out.print(transpozeMatrix[i][j]);
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
     }
 
     public static void main(String[] args) {
